@@ -59,4 +59,4 @@ typings/
 
 # For development purpose
 index.js
-controller/
+controllers/
