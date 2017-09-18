@@ -1,3 +1,9 @@
+/*!
+ * PiperJs
+ * Copyright(c) 2017 Kator Bryan `kb` James
+ * MIT Licensed
+ */
+
 const http= require('http')
 const path = require('path')
 const fs = require('fs')
@@ -85,7 +91,7 @@ class Piper {
 
     middleware(middleware = './middlewares') {
         try {
-            
+
         } catch (e) {
 
         }
