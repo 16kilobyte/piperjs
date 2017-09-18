@@ -1,0 +1,20 @@
+{
+  "name": "piperjs",
+  "version": "1.0.0",
+  "description": "Nodejs server framework",
+  "main": "piper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamesKator/piperjs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "framework"
+  ],
+  "author": "Kator James <kb.james@logicaladdress.com> (https://logicaladdress.com)",
+  "license": "MIT"
+}

@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# For development purpose
+index.js
+controller/
