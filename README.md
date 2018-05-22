@@ -1,8 +1,5 @@
 # PiperJs
-Modern Light-weight web server framework
-
-## Dependencies
-- NodeJs
+Work-in-progress modern Light-weight web server framework
 
 ## Install via NPM
 ```shell
@@ -32,22 +29,22 @@ An example route in the `./controllers` folder could be
 ```javascript
 const router = require('piperjs').router()
 
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
     res.end('The Piper')
     return
 })
 
-router.get('/hi', function(req, res, next) {
+router.get('/hi', function(req, res) {
     res.end('The Piper says Hi!')
     return
 })
 
-router.get('/json', function(req, res, next) {
+router.get('/json', function(req, res) {
     res.status(200).json({message: 'The piper sends json'})
     return
 })
 
-module.exports= router
+module.exports = router
 ```
 
 ### `req`
@@ -67,3 +64,4 @@ router.get('/html', function(req, res) {
 })
 ```
 ###### `.css([string])`, `.js([string])`
+
